@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const PaginationBtn = styled.button`
   padding: 8px 16px;
   border-radius: 2px;
-  background-color: #ff1493;
+  background-color: #37d310;
   transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
   text-align: center;
   display: inline-block;
@@ -23,6 +23,6 @@ export const PaginationBtn = styled.button`
 
   &:hover,
   &:focus {
-    background-color: #800080;
+    background-color:#d31041;
   }
 `;

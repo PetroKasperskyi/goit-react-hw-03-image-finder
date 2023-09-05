@@ -1,4 +1,4 @@
-import { CiSearch } from 'react-icons/ci';
+import { TbPhotoSearch } from 'react-icons/tb';
 import {
   Header,
   SearchForm,
@@ -11,7 +11,7 @@ export const SearchBar = ({ onSubmit }) => {
     <Header>
       <SearchForm onSubmit={onSubmit}>
         <SearchFormButton type="submit">
-          <CiSearch size={22} />
+          <TbPhotoSearch size={30} />
         </SearchFormButton>
         <SearchFormInput
           type="text"

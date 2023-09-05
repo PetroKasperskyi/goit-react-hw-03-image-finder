@@ -14,13 +14,14 @@ export const Header = styled.header`
   padding-top: 12px;
   padding-bottom: 12px;
   color: #fff;
-  background-color: #ff1493;
+  background-color: #37d310;
   box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
     0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
 `;
 
 export const SearchForm = styled.form`
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   width: 100%;
   max-width: 600px;
@@ -33,6 +34,7 @@ export const SearchFormButton = styled.button`
   display: inline-block;
   width: 48px;
   height: 48px;
+  
   border: 0;
   background: transparent;
   opacity: 0.6;
@@ -44,7 +46,7 @@ export const SearchFormButton = styled.button`
 
   &:hover {
     opacity: 1;
-    color: blue;
+    color: #d31041;
     transform: scale(1.05);
   }
 `;
